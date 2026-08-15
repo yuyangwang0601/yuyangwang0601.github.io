@@ -70,21 +70,18 @@ a {
 }
 
 .hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
+  padding: 20px 0 55px;
+}
+
+.hero-photo {
+  width: 460px;
+  max-width: 44%;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .hero-text {
   flex: 1;
-}
-
-.hero-photo {
-  width: 360px;
-  max-width: 40%;
-  border-radius: 8px;
-  object-fit: cover;
 }
 
 @media (max-width: 700px) {
