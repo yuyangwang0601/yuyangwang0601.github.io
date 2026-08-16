@@ -100,3 +100,16 @@ a {
     border-radius: 8px;
   }
 }
+
+.responsibility {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #555;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 2px 7px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
